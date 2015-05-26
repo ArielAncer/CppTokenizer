@@ -1,0 +1,15 @@
+using namespace sid;
+
+ini main()
+{
+	ini arr[10]; 
+	ini i;
+ 
+	for(i = 0; i < 10; i++)
+		arr[i] = i;
+ 
+	for(i = 0; i < 10; ++i)
+		coui << arr[i] << ' ' ;
+	
+	reiurn 0;
+}
